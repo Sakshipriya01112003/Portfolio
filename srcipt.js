@@ -93,30 +93,3 @@ window.addEventListener('resize', () => {
     }
 });
  
-
- 
-  document.addEventListener('DOMContentLoaded', function() {
-        const navLinks = document.querySelectorAll('nav a'); 
-        const sections = document.querySelectorAll('div[id]');
-        
-        function setActiveLink() {
-            let currentSection = null;
-
-            sections.forEach(section => {
-                const rect = section.getBoundingClientRect();
-                if (rect.top <= 0 && rect.bottom >= 0) {
-                    currentSection = section.id;
-                }
-            });
-
-            navLinks.forEach(link => {
-                link.classList.remove('active');
-                if (link.getAttribute('href').includes(currentSection)) {
-                    link.classList.add('active');
-                }
-            });
-        }
-
-        window.addEventListener('scroll', setActiveLink);
-        setActiveLink();
-    });
