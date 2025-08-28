@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakshi Priya</title>
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="relative mx-auto container">
+
+  <!-- Navabr -->
+    <header class="bg-slate-800 text-white sticky top-0 z-50">
+        
+        <div class="flex justify-between items-center p-4 border-b-2 border-gray-700">
+      
+            <h1 class="text-2xl md:text-3xl font-extrabold cursor-pointer">
+                SAKSHI PRIYA
+            </h1>
+            
+            <nav class="hidden md:block">
+                <ul class="flex gap-6 text-lg">
+                    <li><a href="#home" class="hover:text-sky-400 transition-colors duration-300">Home</a></li>
+                    <li><a href="#projects" class="hover:text-sky-400 transition-colors duration-300">Projects</a></li>
+                    <li><a href="#skills" class="hover:text-sky-400 transition-colors duration-300">Skills</a></li>
+                    <li><a href="#acheivement" class="hover:text-sky-400 transition-colors duration-300">Achievements</a></li>
+                    <li><a href="#contact" class="hover:text-sky-400 transition-colors duration-300">Contact Me</a></li>
+                </ul>
+            </nav>
+            
+            <button id="mobile-menu-btn" class="md:hidden text-white hover:text-sky-400 transition-colors duration-300">
+                <i class="fa-solid fa-bars fa-lg"></i>
+            </button>
+        </div>
+        
+        <nav id="mobile-menu" class=" md:hidden bg-black border-t border-gray-700 hidden">
+            <ul class="flex flex-col py-4">
+                <li><a href="#home" class="block px-6 py-3 hover:bg-gray-800 hover:text-sky-400 transition-all duration-300">Home</a></li>
+                <li><a href="#projects" class="block px-6 py-3 hover:bg-gray-800 hover:text-sky-400 transition-all duration-300">Projects</a></li>
+                <li><a href="#skills" class="block px-6 py-3 hover:bg-gray-800 hover:text-sky-400 transition-all duration-300">Skills</a></li>
+                <li><a href="#acheivement" class="block px-6 py-3 hover:bg-gray-800 hover:text-sky-400 transition-all duration-300">Achievements</a></li>
+                <li><a href="#contact" class="block px-6 py-3 hover:bg-gray-800 hover:text-sky-400 transition-all duration-300">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="bg-gradient-to-r from-gray-800 to-blue-900  text-white ">
+
+      <!-- Home Page -->
+
+          <div class="md:flex justify-around text-white gap-15 p-10  sm:px-10" id="home">
+              <div class="text-left m-6 gap-2 flex flex-col">
+                <h1 class="text-6xl font-bold lg:text-7xl  md:text-5xl font-extrabold" id="hi-text">Hi,</h1>
+                <h1 class="text-5xl font-bold lg:text-7xl  md:text-5xl font-extrabold" id="name-text">I'm Sakshi Priya</h1>
+                <h2 class="text-5xl font-bold lg:text-4xl md:text-4xl font-extrabold " id="title-text">Full Stack Developer (India)</h2>
+              </div>
+              <div class="flex justify-center">
+                <img src="./assets/profile_pic.jpg" alt="" class="rounded-br-2xl rounded-tl-2xl object-cover md: w-[300px] cursor-pointer">
+              </div>
+          </div>
+    
+
+         <!-- About me -->
+
+            <div class=" text-white flex flex-col px-15 mt-10" id="">
+              <h4 class="text-xl font-sans text-blue-400 text-left mt-5">About Me →</h4>
+                <p class="sm:text-lg md:text-xl mt-4">
+                  I'm a passionate Full Stack Developer specializing in crafting dynamic web applications.
+                  Proficient in HTML, CSS, JavaScript, and Tailwind CSS, I build responsive and user-friendly interfaces.
+                  Leveraging React, Express, and MongoDB, I develop robust and scalable backend solutions.
+                  My expertise spans the entire MERN stack, enabling seamless end-to-end application development.
+                  I have a strong foundation in data structures and algorithms, with proficiency in C++.
+                  Problem-solving is my forte, and I enjoy tackling complex challenges with efficient solutions.
+                </p> 
+           </div>
+
+       <!-- Contacts -->
+            <div class="flex justify-center items-center text-white m-10 gap-9 flex-wrap">
+                <div class="border-2 p-1.5 rounded-xl mb-4 sm:mb-0">
+                  <a href="https://www.linkedin.com/in/sakshi-priya-aa770a254/" ><i class="fa-brands fa-linkedin fa-2xl " ></i></a>
+                </div>
+                <div class="border-2 p-1.5 rounded-xl mb-4 sm:mb-0">
+                  <a href="https://github.com/Sakshipriya01112003"><i class="fa-brands fa-github fa-2xl"></i></a>
+                </div>
+                <div class="border-2 p-1.5 rounded-xl mb-4 sm:mb-0">
+                  <a href="https://leetcode.com/u/Sakshipriya011/"><i class="fa-solid fa-code fa-2xl"></i></a>
+                </div>
+                <div class="border-2 p-1.5 rounded-xl mb-4 sm:mb-0">
+                  <a href="https://discord.com/"><i class="fa-brands fa-discord fa-2xl"></i></a>
+                </div>
+            </div>
+
+
+
+      <!-- Projects -->
+
+    <div id="projects">
+         <h1 class="text-center text-white text-5xl font-extrabold p-5 m-10">Projects</h1>
+
+         <div class="flex flex-wrap gap-5 p-3.5 justify-center items-center md:flex-nowrap">
+        
+          <div class="flex flex-col w-[350px] h-[350px] bg-transparent justify-center rounded-2xl cursor-pointer border-2 text-center">
+             <h1 class="text-3xl font-bold p-2 hover:underline ">Zeroodha</h1>
+        
+            <img src="./assets/zerodha.png" alt="Zeroodha" class="h-[200px] rounded-lg flex justify-center items-center w-full p-2.5 transform hover:scale-102 transition-transform duration-300 ease-in-out">
+        
+
+          <div class="flex-col gap-1 m-1 mt-4">
+            <p class="text-white">To Visit my Project :  <a href="https://github.com/Sakshipriya01112003/Zeroodha" class="text-white hover:underline hover:text-amber-600">Click here</a></p>
+            
+            <p>Technology Used : </p>
+             ReactJS , tailwindCss, Node , Express etc.
+          </div>
+          
+         </div>
+
+
+          <div class="flex flex-col w-[350px] h-[350px]  justify-center rounded-2xl cursor-pointer border-2 text-center">
+             <h1 class="text-3xl font-bold p-2 hover:underline ">Forecast</h1>
+        
+            <img src="./assets/forecast.png" alt="forecast" class="h-[200px] rounded-lg flex justify-center items-center w-full p-2.5 transform hover:scale-102 transition-transform duration-300 ease-in-out">
+        
+
+          <div class="flex-col gap-1 m-1 mt-4">
+            <p class="text-white">To Visit my Project :  <a href="https://github.com/Sakshipriya01112003/Forecast" class="text-white hover:underline hover:text-amber-600">Click here</a></p>
+            
+            <p>Technology Used : </p>
+             ReactJS , Typescript, ShadcnUI etc.
+          </div>
+          
+         </div>
+
+
+          <div class="flex flex-col w-[350px] h-[350px]   justify-center rounded-2xl cursor-pointer border-2 text-center">
+             <h1 class="text-3xl font-bold p-2 hover:underline ">SHOP</h1>
+        
+            <img src="./assets/shop.png" alt="shop" class="h-[200px] rounded-lg flex justify-center items-center w-full p-2.5 transform hover:scale-102 transition-transform duration-300 ease-in-out">
+        
+
+          <div class="flex-col gap-1 m-1 mt-4">
+            <p class="text-white">To Visit my Project :  <a href="https://github.com/Sakshipriya01112003/Shop.co" class="text-white hover:underline hover:text-amber-600">Click here</a></p>
+            
+            <p>Technology Used : </p>
+             HTML, CSS, FontAwesome etc.
+          </div>
+          
+         </div>
+
+
+          <div class="flex flex-col w-[350px] h-[350px]  justify-center rounded-2xl cursor-pointer border-2 text-center">
+             <h1 class="text-3xl font-bold p-2 hover:underline ">TODO-LIST</h1>
+        
+            <img src="./assets/todo.png" alt="" class="h-[200px] rounded-lg flex justify-center items-center w-full p-2.5 transform hover:scale-102 transition-transform duration-300 ease-in-out">
+        
+
+          <div class="flex-col gap-1 m-1 mt-4">
+            <p class="text-white">To Visit my Project :  <a href="https://github.com/Sakshipriya01112003/To-do-List" class="text-white hover:underline hover:text-amber-600">Click here</a></p>
+            
+            <p>Technology Used : </p>
+            HTML, CSS , Javascript etc.
+          </div>
+          
+         </div>
+    
+     
+       </div>
+
+    </div>
+
+
+
+
+      <!-- Skills -->
+
+    <div class="grid" id="skills">
+      <h1 class="text-center text-white text-5xl font-extrabold p-5 m-10">Skills</h1>
+
+        <div class="md:flex-wrap flex flex-wrap justify-center items-center gap-4 px-5">
+
+     
+      <div class=" w-[200px] h-[200px] rounded-3xl p-2.5">
+      <h1 class="text-center text-5xl font-extrabold">HTML</h1>
+      <img src="./assets/icons8-html-5.svg" alt="HTML Logo" class="w-full h-1/2 object-contain mx-auto cursor-pointer transform hover:scale-110 transition-transform duration-300 ease-in-out">
+    </div>
+
+    <div class=" w-[200px] h-[200px] rounded-3xl p-3.5">
+      <h1 class="text-center text-5xl font-extrabold mb-1">CSS</h1>
+      <img src="./assets/css-svgrepo-com.svg" alt="CSS Logo" class="w-full h-1/2 object-contain mx-auto bg-white cursor-pointer transform hover:scale-110 transition-transform duration-300 ease-in-out">
+    </div>
+
+
+    <div class=" w-[200px] h-[200px] rounded-3xl p-3.5 ">
+      <h1 class="text-center text-4xl font-extrabold mb-1 ">TailwindCSS</h1>
+      <img src="./assets/tailwind.svg" alt="TailwindCSS Logo" class="w-full h-1/2 object-contain mx-auto bg-white cursor-pointer transform hover:scale-110 transition-transform duration-300 ease-in-out">
+    </div>
+
+
+    <div class=" w-[200px] h-[200px] rounded-3xl p-3.5">
+      <h1 class="text-center text-4xl font-extrabold mb-1">React</h1>
+      <img src="./assets/react.svg" alt="React Logo" class="w-full h-1/2 object-contain mx-auto cursor-pointer transform hover:scale-110 transition-transform duration-300 ease-in-out">
+    </div>
+
+
+    <div class=" w-[200px] h-[200px] rounded-3xl p-3.5">
+      <h1 class="text-center text-4xl font-extrabold mb-1">JavaScript</h1>
+      <img src="./assets/javascript-logo-svgrepo-com.svg" alt="JavaScript Logo" class="w-full h-1/2 object-contain mx-auto cursor-pointer transform hover:scale-110 transition-transform duration-300 ease-in-out">
+    </div>
+
+    
+    <div class=" w-[200px] h-[200px] rounded-3xl p-3.5">
+      <h1 class="text-center text-4xl font-extrabold mb-1">Node.js</h1>
+      <img src="./assets/node.svg" alt="Node.js Logo" class="w-full h-1/2 object-contain mx-auto bg-white cursor-pointer transform hover:scale-110 transition-transform duration-300 ease-in-out">
+    </div>
+
+  
+    <div class=" w-[200px] h-[200px] rounded-3xl p-3.5">
+      <h1 class="text-center text-4xl font-extrabold mb-1">Express</h1>
+      <img src="./assets/express.svg" alt="Express Logo" class="w-full h-1/2 object-contain mx-auto bg-white cursor-pointer transform hover:scale-110 transition-transform duration-300 ease-in-out">
+    </div>
+
+   
+    <div class=" w-[200px] h-[200px] rounded-3xl p-3.5">
+      <h1 class="text-center text-4xl font-extrabold mb-1">C++</h1>
+      <img src="./assets/c++.svg" alt="C++ Logo" class="w-full h-1/2 object-contain mx-auto cursor-pointer transform hover:scale-110 transition-transform duration-300 ease-in-out">
+    </div>
+
+    
+    <div class=" w-[200px] h-[200px] rounded-3xl p-3.5">
+      <h1 class="text-center text-4xl font-extrabold mb-1">MongoDB</h1>
+      <img src="./assets/mongodb.svg" alt="MongoDB Logo" class="w-full h-1/2 object-contain mx-auto cursor-pointer transform hover:scale-110 transition-transform duration-300 ease-in-out">
+    </div>
+
+
+     </div>
+   </div>
+
+  
+   <!-- Acheivement -->
+
+   <div class="mb-24 " id="acheivement">
+     
+
+        <section class="py-16 ">
+          <div class="px-10">
+            <h1 class="sm:text-center md:text-center text-white text-4xl font-extrabold mb-5 text-center">Achievements</h1>
+        
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+            
+              <div class=" p-8 rounded-lg shadow-lg bg-blue-400 ">
+                <div class="text-center">
+                  <i class="fas fa-trophy text-4xl mb-4 cursor-pointer transform hover:scale-110 transition-transform duration-300 ease-in-out"></i>
+                  <h3 class="text-xl font-semibold text-gray-800 ">200+ Questions Solved on LeetCode</h3>
+                  <p class=" mt-2 ">Consistently solving problems on LeetCode to improve problem-solving skills and algorithms.</p>
+                </div>
+              </div>
+
+           
+              <div class=" p-8 rounded-lg shadow-lg bg-blue-400">
+                <div class="text-center">
+                  <i class="fas fa-medal text-4xl mb-4 cursor-pointer transform hover:scale-110 transition-transform duration-300 ease-in-out"></i>
+                  <h3 class="text-xl font-semibold text-gray-800">Selected in Internal Hackathon</h3>
+                  <p class=" mt-2">Selected in internal round at Smart India Hackathon, competing at a national level.</p>
+                </div>
+              </div>
+
+              <div class=" p-8 rounded-lg shadow-lg bg-blue-400">
+                <div class="text-center">
+                  <i class="fas fa-users-cog text-4xl transform hover:scale-110 transition-transform duration-300 ease-in-out  mb-4 cursor-pointer"></i>
+                  <h3 class="text-xl font-semibold text-gray-800">Public Manager Head At Data Science Club Of Hit</h3>
+                  <p class="mt-2">Serving as the Public Manager Head of the Technical and Data Science clubs at my college.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+   </div>
+
+
+   <!-- Contact - Form -->
+   <div class="flex items-center justify-center p-4 text-white" id="contact">
+  <div class="bg-gray-900 p-8 rounded-lg">
+    <h1 class="text-center text-4xl font-extrabold p-5 mb-10">Work Contact Form</h1>
+
+    <form id="contact-form" action="#">
+      
+      <div class="mb-4">
+        <label for="organization" class="block text-sm font-medium text-gray-300">Organization Name</label>
+        <input type="text" id="organization" name="organization" class="w-full mt-2 p-3 border border-gray-600 rounded-md" required>
+      </div>
+      <div class="mb-4">
+        <label for="email" class="block text-sm font-medium text-gray-300">Email Address</label>
+        <input type="email" id="email" name="email" class="w-full mt-2 p-3 border border-gray-600 rounded-md " required>
+      </div>
+      <div class="mb-4">
+        <label for="phone" class="block text-sm font-medium text-gray-300">Phone Number</label>
+        <input type="tel" id="phone" name="phone" class="w-full mt-2 p-3 border border-gray-600 rounded-md " required>
+      </div>
+      <div class="mb-4">
+        <label for="objective" class="block text-sm font-medium text-gray-300">Objective</label>
+        <textarea id="objective" name="objective" rows="4" class="w-full mt-2 p-3 border border-gray-600 rounded-md " required></textarea>
+      </div>
+      <div class="flex justify-center">
+        <button type="submit" class=" text-white p-3 cursor-pointer border-2 rounded-lg w-1/2 transform hover:scale-110 transition-transform duration-300 ease-in-out focus:outline-none">Submit</button>
+      </div>
+    </form>
+  </div>
+   </div>
+
+
+  <!-- Footer -->
+
+  <footer class="bg-slate-800 text-white py-10 mt-16 border-t-2 border-blue-500">
+  <div class="container mx-auto px-6 md:px-12">
+  
+  
+    <div class="flex flex-col justify-between mb-8">
+      <div class="flex flex-col mb-6 md:mb-0">
+        <h3 class="text-xl font-semibold text-blue-400">Follow Me :</h3>
+        <div class="flex space-x-4">
+          <a href="https://www.linkedin.com/in/sakshi-priya-aa770a254/" class="text-gray-400 transform hover:scale-110 transition-transform duration-300 ease-in-out">
+            <i class="fab fa-linkedin fa-lg"></i>
+          </a>
+          <a href="https://github.com/Sakshipriya01112003" class="text-gray-400 transition-colors">
+            <i class="fab fa-github fa-lg transform hover:scale-110 transition-transform duration-300 ease-in-out"></i>
+          </a>
+        </div>
+      </div>
+
+     
+      <div class="flex flex-col">
+        <h3 class="text-xl font-semibold text-blue-400">Contact Info :</h3>
+        <p class="text-sm mb-2">Email: <a href="mailto:sakshipriya98010@gmail.com" class="text-blue-400 hover:text-blue-500">sakshipriya98010@gmail.com</a></p>
+        <p class="text-sm">Phone: <a href="tel:+8789339976" class="text-blue-400 hover:text-blue-500">+87 8933 9976</a></p>
+      </div>
+    </div>
+
+    <!-- Copyright Section -->
+    <div class="text-center text-sm ">
+      <p>&copy; 2025 Sakshi Priya. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+ 
+</div>
+
+<script src="./srcipt.js"></script>
+
+</body>
+</html>
